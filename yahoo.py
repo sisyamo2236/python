@@ -1,7 +1,19 @@
 
 a = 1
-while a <= 50:
+while a <= 60:
     if a%3==0:
+        print(a, end="/")
+    a += 1
+print()
+a = 1
+while a <= 60:
+    if (a%10)%3==0:
+        print(a, end="/")
+    a += 1
+print()
+a = 1
+while a <= 60:
+    if (a*0.1)%3==0:
         print(a, end="/")
     a += 1
 
