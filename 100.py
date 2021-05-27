@@ -4,6 +4,7 @@
 # i   : num未満の数で割り切れるかチェックする変数
 
 for num in range(2, 101):
+    
     flg = 1
     for i in range(2, num):
         if num % i == 0:
@@ -11,6 +12,6 @@ for num in range(2, 101):
             break
 
     if flg == 1:
-        print(' ' + str(num), end='')
+        print(' ' + str(num), end='')#数値をnumに変換する
 
 print()
