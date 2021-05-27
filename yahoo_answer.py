@@ -20,7 +20,8 @@ for i in range(1, 51):
     elif i // 10 == 3: # １０の位が３かチェック
         cnt += 1
         print(i, end=" ")
-
+#10/3=3.333
+#10//3=3
 # 改行
 print()
 print("count = ", cnt)
