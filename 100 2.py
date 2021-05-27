@@ -15,7 +15,7 @@ def checkPrime(n):
 #---------------------------------------- main
 # num : 素数候補
 
-for num in range(2, 101):
+for num in range(2, 1001):
     if checkPrime(num):
         print(' ' + str(num), end='')
 

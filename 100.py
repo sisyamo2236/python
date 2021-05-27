@@ -4,7 +4,7 @@
 # i   : num未満の数で割り切れるかチェックする変数
 
 for num in range(2, 101):
-    
+
     flg = 1
     for i in range(2, num):
         if num % i == 0:
